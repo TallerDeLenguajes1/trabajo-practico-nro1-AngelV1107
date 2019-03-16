@@ -11,11 +11,14 @@ int main () {
 	puts("Ingrese una variable A numerica:");
 	scanf("%d", &varA);
 	
-	puts("Ingrese una variable B numerica:");
-	scanf("%d", &varB);
-
 	printf("\nDireccion de la variable A: %p\n", &varA);
 	printf("Contenido de la variable A: %d\n", varA);
+
+	puts("\nIngrese una variable B numerica:");
+	scanf("%d", &varB);
+
+	printf("\nDireccion de la variable B: %p\n", &varB);
+	printf("Contenido de la variable B: %d\n", varB);
 
 	invertir(&varA,&varB);
 
